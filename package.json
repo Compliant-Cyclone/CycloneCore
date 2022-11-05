@@ -1,0 +1,26 @@
+{
+  "name": "cyclone-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CompliantCyclone/CycloneCore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CompliantCyclone/CycloneCore/issues"
+  },
+  "homepage": "https://github.com/CompliantCyclone/CycloneCore#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ethers": "^5.7.2",
+    "next": "^13.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
