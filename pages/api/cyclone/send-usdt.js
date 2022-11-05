@@ -1,6 +1,6 @@
 import { ethers, utils } from 'ethers';
 
-// USDC ERC20 ABI
+// USDT ERC20 ABI
 const abi = `[
     {
         "constant": true,
@@ -235,7 +235,7 @@ export default async function (req, res) {
     console.log('receiver: ', receiver);
     console.log('amount: ', amount);
 
-    const provider = new ethers.providers.InfuraProvider("goerli", "321bffc73d1a440aad9dc4ce5495e5e2");
+    const provider = new ethers.providers.InfuraProvider("goerli", process.env.INFURA_KEY);
 
     const USDT_CONTRACT = "0xA1Ff332f03f3A1410f2A8Ac7DB2c4724AC01B7b0";
 
