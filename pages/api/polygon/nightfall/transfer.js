@@ -1,7 +1,7 @@
 import { ethers, utils } from 'ethers';
 import Cors from 'cors'
 import initMiddleware from '../../../../lib/init-middleware'
-import config from '../../../../lib/nightfall-config'
+import config from '../../../../lib/nightfallConfig'
 import BN from 'bn.js';
 import { UserFactory } from 'nightfall-sdk';
 
